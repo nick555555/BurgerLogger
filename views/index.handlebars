@@ -1,7 +1,8 @@
+<div class="pic"><img class="image" src="..\assets\img\burger.png" alt="Burger Picture"></div>
 <h1 class="webTitle">Eat-Da-Burger!</h1>
 
 <div class="row">
-    <div class="col">
+    <div class="col-6 text-center">
         <h2>Delicious burgers, ready to eat!</h2>
             <ol>
                 {{#each burgers}}
@@ -15,7 +16,7 @@
                 {{/each}}
             </ol>
     </div>
-    <div class="col">
+    <div class="col-6 text-center">
         <h2>Burgers that have been devoured</h2>
             <ol>
                 {{#each burgers}}
@@ -30,6 +31,7 @@
     </div>
 </div>
 
+<div class="submitBox">
 <h2>Enter a burger you want to eat</h2>
 <form class="create-form">
 
@@ -40,3 +42,4 @@
 
   <button type="submit">Submit</button>
 </form>
+</div>
