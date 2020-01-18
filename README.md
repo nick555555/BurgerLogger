@@ -1,2 +1,2 @@
 # BurgerLogger
-![Deployed Application Screenshot](\assets\img\BurgerLogger.png)
+![Deployed Application Screenshot](/assets/img/BurgerLogger.png)
